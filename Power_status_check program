@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+ void main() {
+    int power;
+    printf("Enter power:");
+    scanf("%d",&power);
+    if (power == 1) 
+        printf("SWitch is ON\n");
+    else if(power==0)
+        printf("swtich is OFF\n");
+        else 
+        printf("invalid input");
+    }
