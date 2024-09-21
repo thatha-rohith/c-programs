@@ -1,0 +1,19 @@
+#include <stdio.h>
+void main()
+{
+    int b;
+    printf("enter a number");
+    scanf("%d",&b);
+switch(b){
+    case 1:
+    printf("hi");
+    break;
+    case 2:
+    printf("rohith");
+    break;
+    case 3:
+    printf("hello");
+    break;
+}
+    
+}
