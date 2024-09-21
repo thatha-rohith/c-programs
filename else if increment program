@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main()
+{
+    int n;
+    printf("enter n value=");
+    scanf("%d",&n);
+    if (n>20)
+    printf("print post increment: ",n++);
+    else if (n<20)
+    printf("print pre increment:",++n);
+    else
+    printf("print n:%d",n);
+}
